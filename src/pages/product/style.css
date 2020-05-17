@@ -1,0 +1,14 @@
+.demo-editor{
+  border: 1px solid white;
+  height: 220px;
+  padding-left: 10px;
+}
+.rdw-image-modal-btn{
+  color: black;
+}
+.rdw-image-modal{
+  background-color: black;
+}
+.rdw-image-modal-size-input{
+  color: black;
+}
