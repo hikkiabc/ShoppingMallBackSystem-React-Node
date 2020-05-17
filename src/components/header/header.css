@@ -1,0 +1,43 @@
+.cheader{
+  background-color: #161616 !important;
+  height: 150px;
+}
+.h-top{
+  height: 75px;
+  font-size: 15px;
+  text-align: right;
+  line-height: 75px;
+  border-bottom: 1px solid rgb(194, 194, 194);
+  padding-right: 30px;
+}
+.quit{
+  margin-left: 21px;
+}
+
+.h-bot{
+  line-height: 75px;
+  display: flex;
+}
+.bright{
+  width: 75%;
+  margin-right: 30px;
+  text-align: right;
+}
+.bleft{
+  width: 25%;
+  margin-left: 50px;
+ font-size:  20px;
+ position: relative;
+  text-align: center;
+}
+.bleft::after{
+  content: '';
+  position: absolute;
+  transform: translate(-50%);
+left: 50%;
+top: 100%;
+  border-top: 22px solid  #161616;
+  border-right: 22px solid transparent;
+  border-left: 22px solid transparent;
+  border-bottom:  22px solid  transparent
+}
