@@ -1,7 +1,7 @@
 ShoppingMall management System 
 Tools: React, Node, Express, MongoDB
 
-To run:
+To run: be sure to have mongodb database
 
 1:
 cd root
